@@ -1,0 +1,7 @@
+# **Hype vs. Hyperpigmentation: Analyzing Skincare Marketing Across Asian and Western Markets** 
+**Authors:** Vyomi Seth, Shamita Goyal, Tanvi Vidyala, and Sarah Sun
+
+This study looks at the differences in marketing strategies and consumer perceptions of hyperpigmentation treatments in Asian and Western skincare markets. Using exploratory data analysis (EDA), machine learning classification, and hypothesis testing, we analyzed ingredient emphasis, pricing structures, and linguistic framing in product descriptions from both regions. Our findings reveal that Asian skincare brands prioritize gentle, long-term skincare benefits, often highlighting ingredients like Niacinamide and Tranexamic Acid, whereas Western brands focus on clinical efficacy and faster results, emphasizing Vitamin C and Alpha Arbutin. Price analysis showed that Western skincare products tend to be more expensive, likely due to branding and positioning, while Asian brands offer more accessible pricing. A Random Forest model achieved 95.31% accuracy in distinguishing between Asian and Western skincare products, showing the significant difference in marketing language, pricing, and ingredients. Additionally, hypothesis testing confirmed a statistically significant difference (p < 0.05) in the words used to market products, with Western brands focusing on “dark spots” and “visible results” while Asian brands emphasized “moisture” and “radiance.” 
+
+
+[![Watch the video](https://img.youtube.com/vi/udggbA-BiDE/0.jpg)](https://www.youtube.com/watch?v=udggbA-BiDE)
