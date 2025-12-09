@@ -298,16 +298,17 @@ To do this, we tokenized the product descriptions, counted word occurrences, and
 ></iframe>
 
 ##### Visualizing With Word Clouds
+The word cloud visualization shows clear differences between how Western companies and Asian companies describe their products. 
 
-## Asian Skincare Word Cloud
-![Asian Word Cloud](asian_wordcloud.png)
-
-## Western Skincare Word Cloud
+**Western Skincare Word Cloud**
 ![Western Word Cloud](western_wordcloud.png)
+Western companies focus on results, using words like "skin" (0.04), "dark" (449), "visibly" (411), and "spots" (399). It also highlights anti-aging with words like "wrinkles" (214) and "lines" (215). Words like "clinical" (279) and "ingredient" (208) suggest a science-backed approach. Western company descriptions seem to focus on solving problems and showing visible changes.
 
-The word analysis shows clear differences between how Western companies and Asian companies describe their products. Western companies focus on results, using words like "skin" (0.04), "dark" (449), "visibly" (411), and "spots" (399). It also highlights anti-aging with words like "wrinkles" (214) and "lines" (215). Words like "clinical" (279) and "ingredient" (208) suggest a science-backed approach. Western company descriptions seem to focus on solving problems and showing visible changes.
+**Asian Skincare Word Cloud**
+![Asian Word Cloud](asian_wordcloud.png)
+Asian companies, on the other hand, focus more on ingredients and skin type suitability. Words like "extract" (85), "formula" (56), "moisture" (38), and "sensitive" (37) suggest a focus on gentle and hydrating products. The presence of "hyaluronic" (30) and "niacinamide" (32) shows an emphasis on specific ingredients. 
 
-Asian companies, on the other hand, focus more on ingredients and skin type suitability. Words like "extract" (85), "formula" (56), "moisture" (38), and "sensitive" (37) suggest a focus on gentle and hydrating products. The presence of "hyaluronic" (30) and "niacinamide" (32) shows an emphasis on specific ingredients. Unlike Western Companies, Asian companies do not use words that promise big results. Instead, it describes what the product contains and who it is for. This suggests that Western companies sell skincare with a focus on transformation, while Asian companies highlight safe and nourishing formulas.
+Unlike Western Companies, Asian companies do not use words that promise big results. Instead, it describes what the product contains and who it is for. This suggests that Western companies sell skincare with a focus on transformation, while Asian companies highlight safe and nourishing formulas.
 
 ## Further Analysis
 ### 5) Hypothesis Testing: Analyzing Word Usage Differences in Skincare Descriptions 🧪
