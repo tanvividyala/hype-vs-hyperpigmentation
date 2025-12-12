@@ -1,4 +1,4 @@
-# **Hype vs. Hyperpigmentation: Analyzing Skincare Marketing Across Asian and Western Markets** 
+# **Hype vs. Hyperpigmentation** 
 By Vyomi Seth, Shamita Goyal, Tanvi Vidyala, and Sarah Sun
 
 ## Abstract 🔍
