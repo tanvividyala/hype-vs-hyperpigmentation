@@ -295,13 +295,3 @@ a {
   max-width: none;
 }
 
-/* Drop cap on the abstract paragraph */
-.main-content h2:first-of-type + p::first-letter {
-  font-family: var(--font-display);
-  font-size: 3.4em;
-  font-weight: 500;
-  line-height: 0.82;
-  float: left;
-  margin-right: 0.08em;
-  color: var(--fg);
-}
