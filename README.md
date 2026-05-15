@@ -382,7 +382,7 @@ Despite our strong results, several limitations exist. Our dataset primarily inc
 Overall, our study provides valuable insights into the contrasting approaches of Asian and Western skincare marketing. By critically analyzing ingredient choices, pricing strategies, and language, we can show how beauty standards and cultural influences shape consumer expectations in global skincare markets. Future work can expand on these insights to better understand consumer trust, product effectiveness, and evolving market trends in the beauty industry world-wide.
 
 ## Contributors 🤝
-- Shamita Goyal: Background & previous work, references, EDA editing, data cleaning, writing descriptions, writing analysis, hypothesis testing, video editing, video recording
-- Tanvi Vidyala: Initial research question, forming hypothesis, web scraping, consolidating data, interactive graphs for EDA, training and testing random forest model.
-- Vyomi Seth: Ethics & privacy, first draft of EDA, research question, documentation, discussion, slideshow, video script
-- Sarah Sun: Ethics & privacy, web scraping, data cleaning, EDA editing, documentation
+- **Shamita Goyal**: Background & previous work, references, EDA editing, data cleaning, writing descriptions, writing analysis, hypothesis testing, video editing, video recording
+- **Tanvi Vidyala**: Initial research question, forming hypothesis, web scraping, consolidating data, interactive graphs for EDA, training and testing random forest model.
+- **Vyomi Seth**: Ethics & privacy, first draft of EDA, research question, documentation, discussion, slideshow, video script
+- **Sarah Sun**: Ethics & privacy, web scraping, data cleaning, EDA editing, documentation
