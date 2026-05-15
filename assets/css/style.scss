@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: "Cooper Md BT";
-  src: url("/fonts/CooperMdBT-Medium.ttf") format("truetype");
+  src: url("../../fonts/CooperMdBT-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -72,34 +72,10 @@ body {
   font-family: var(--font-sans);
 }
 
-/* ── Header ─────────────────────────────────────────────────────────────── */
+/* ── Header: hidden — title lives in the content h1 ─────────────────────── */
 
 .page-header {
-  background-color: var(--moss-900);
-  background-image: linear-gradient(135deg, var(--moss-900) 0%, var(--moss) 100%);
-  color: var(--cream-50);
-}
-
-.page-header .project-name {
-  font-family: var(--font-display);
-  font-weight: 500;
-  color: var(--cream-50);
-}
-
-.page-header .project-tagline {
-  font-family: var(--font-sans);
-  font-weight: 300;
-  color: var(--cream-200);
-}
-
-.btn {
-  border-color: var(--cream-300);
-  color: var(--cream-50);
-}
-.btn:hover {
-  background-color: rgba(254, 251, 243, 0.12);
-  border-color: var(--cream-50);
-  color: var(--cream-50);
+  display: none;
 }
 
 /* ── Headings ───────────────────────────────────────────────────────────── */
@@ -219,18 +195,13 @@ blockquote {
   background: var(--accent);
 }
 
-/* ── iframes: chart cards ───────────────────────────────────────────────── */
+/* ── iframes: responsive only ───────────────────────────────────────────── */
 
 iframe {
   display: block;
   width: 100% !important;
   max-width: 100%;
-  border-radius: 14px !important;
-  border: 1px solid var(--border) !important;
-  box-shadow: 0 6px 24px -6px rgba(47, 58, 38, 0.15),
-              0 2px 6px rgba(47, 58, 38, 0.06);
   margin: 1.5rem 0;
-  overflow: hidden;
 }
 
 /* ── Images: soft card framing (word clouds) ────────────────────────────── */
@@ -283,4 +254,46 @@ a {
   text-underline-offset: 0.2em;
   text-decoration-thickness: 1px;
   transition: color 140ms ease;
+}
+
+/* ── Minimal title layout (replaces banner) ─────────────────────────────── */
+
+/* Extra breathing room at top now that the banner is gone */
+.main-content {
+  padding-top: 3rem;
+}
+
+/* Eyebrow label above the h1 */
+.main-content h1:first-of-type::before {
+  content: "— Analysis";
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.6rem;
+}
+
+/* Byline paragraph immediately after h1 → mono metadata */
+.main-content h1:first-of-type + p {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  color: var(--fg-subtle);
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  max-width: none;
+}
+
+/* Drop cap on the abstract paragraph */
+.main-content h2:first-of-type + p::first-letter {
+  font-family: var(--font-display);
+  font-size: 3.4em;
+  font-weight: 500;
+  line-height: 0.82;
+  float: left;
+  margin-right: 0.08em;
+  color: var(--fg);
 }
