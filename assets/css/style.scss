@@ -80,7 +80,15 @@ body {
 
 /* ── Headings ───────────────────────────────────────────────────────────── */
 
-.main-content h1,
+.main-content h1 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--fg);
+}
+
 .main-content h2,
 .main-content h3 {
   font-family: var(--font-display);
@@ -265,7 +273,7 @@ a {
 
 /* Eyebrow label above the h1 */
 .main-content h1:first-of-type::before {
-  content: "— Analysis";
+  content: "— Analyzing Skincare Marketing Across Asian and Western Markets";
   display: block;
   font-family: var(--font-mono);
   font-size: 0.72rem;
