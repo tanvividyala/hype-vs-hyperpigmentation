@@ -197,3 +197,90 @@ blockquote {
   background: var(--apricot-200);
   color: var(--moss-900);
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Project-specific enhancements — hype-vs-hyperpigmentation only
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── h2 sections: poppy accent underline ────────────────────────────────── */
+
+.main-content h2 {
+  padding-bottom: 0.35em;
+  border-bottom: 2px solid var(--cream-300);
+  position: relative;
+}
+.main-content h2::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 2.5rem;
+  height: 2px;
+  background: var(--accent);
+}
+
+/* ── iframes: chart cards ───────────────────────────────────────────────── */
+
+iframe {
+  display: block;
+  width: 100% !important;
+  max-width: 100%;
+  border-radius: 14px !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: 0 6px 24px -6px rgba(47, 58, 38, 0.15),
+              0 2px 6px rgba(47, 58, 38, 0.06);
+  margin: 1.5rem 0;
+  overflow: hidden;
+}
+
+/* ── Images: soft card framing (word clouds) ────────────────────────────── */
+
+.main-content img {
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 16px -4px rgba(47, 58, 38, 0.12);
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+}
+
+/* ── Tables: striped rows + poppy hover ─────────────────────────────────── */
+
+.main-content table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.main-content table tr:nth-child(even) td {
+  background-color: var(--bg-elevated);
+}
+.main-content table tr:hover td {
+  background-color: var(--apricot-200);
+  transition: background-color 140ms ease;
+}
+
+/* ── Blockquotes: warm callout card ─────────────────────────────────────── */
+
+blockquote {
+  background: var(--bg-elevated);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 10px 10px 0;
+  padding: 0.9rem 1.4rem;
+}
+
+/* ── Code blocks: rounded corners ───────────────────────────────────────── */
+
+pre {
+  border-radius: 10px;
+}
+code {
+  border-radius: 4px;
+}
+
+/* ── Links: smooth transition + better underline ────────────────────────── */
+
+a {
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+  transition: color 140ms ease;
+}
