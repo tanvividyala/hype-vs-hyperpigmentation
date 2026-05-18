@@ -1,4 +1,4 @@
-# **Hype vs. Hyperpigmentation** 
+# Hype vs. Hyperpigmentation 
 By Vyomi Seth, Shamita Goyal, Tanvi Vidyala, and Sarah Sun
 
 ## Abstract 🔍
