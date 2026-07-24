@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jupyter nbconvert *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import pandas, numpy, sklearn, nltk, plotly, wordcloud, ipywidgets, scipy; print\\('ok'\\)\")",
+      "Bash(python3 -c \"import nltk; from nltk.corpus import stopwords; print\\(len\\(stopwords.words\\('english'\\)\\)\\)\")",
+      "Bash(jupyter --version)",
+      "Bash(grep -i \"\\\\.html$\")",
+      "Bash(echo \"EXIT CODE: $?\")",
+      "Bash(nohup jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=600 FinalProject_Group138_WI25.ipynb)",
+      "Bash(disown)",
+      "Bash(kill -0 2018)"
+    ],
+    "additionalDirectories": [
+      "/tmp"
+    ]
+  }
+}
